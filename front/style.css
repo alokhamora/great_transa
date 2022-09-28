@@ -1,0 +1,43 @@
+.transa {
+    /*background-color: rgb(20, 20, 20);*/
+    /*background-color: rgb(255, 87, 51);*/
+    background-color: rgb(  33, 97, 140 );
+    background-image: url(face3.png);
+}
+
+header {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    display: flex;
+}
+.name {
+    color: rgb( 0, 0, 0 );
+    background-color: rgb(  33, 97, 140 );
+    border: 5px solid black;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.theme-switcher {
+    display: flex;
+    height: 2em;
+    margin-top: 2em;
+    margin-left: 1015px;
+}
+
+.theme-button-wrap{
+    color: rgb(20, 20, 20);
+}
+
+.game {
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(70, 70, 70);
+    height: 400px;
+    max-width: 650px;
+    margin-left: 345px;
+}
+
+.chat-button {
+    margin-left: 10px;
+    margin-top: 3em;
+}
