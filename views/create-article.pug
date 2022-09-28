@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title Новая статья
+  style
+  body
+    h1 Новая статья
+    form(method="POST" action="/articles")
+      input(type="text" name="title")
+      input(type="text" name="content")
+      button(type="submit") Создать
