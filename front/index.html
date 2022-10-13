@@ -10,22 +10,22 @@
 <body>
     <header>
         <h1 class="name">PONG GAME</h1>
-        <button class="theme-switcher">
-            <span class="theme-button-wrap">
+        <button class="signin_but">
+            <span class="signin-button-wrap">
                 <span class="icon"></span>
                 Sign in
             </span>
         </button>
     </header>
     <div class="root">
-        <div class="game">
-            <span class="temporary staff">GAME</span>
-        </div>
+        <canvas width="850" height="485" id="game"></canvas>
+        <script src="./game.js"></script>
         <button class="chat-button">
-            <span class="chat button wrap">
+            <div class="chat button wrap">
                 <span class="icon"></span>
                 Chat
-            </span>
+                <div class="chat"></div>
+            </div>
         </button>
     </div>
 </body>

@@ -1,12 +1,10 @@
 .transa {
-    /*background-color: rgb(20, 20, 20);*/
-    /*background-color: rgb(255, 87, 51);*/
     background-color: rgb(  33, 97, 140 );
     background-image: url(face3.png);
 }
 
 header {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-top: 10px;
     display: flex;
 }
@@ -18,26 +16,37 @@ header {
     font-size: 35px;
 }
 
-.theme-switcher {
+.signin_but {
     display: flex;
     height: 2em;
     margin-top: 2em;
-    margin-left: 1015px;
+    margin-left: auto;
 }
 
-.theme-button-wrap{
+.signin-button-wrap{
     color: rgb(20, 20, 20);
-}
-
-.game {
-    background-color: rgb(0, 0, 0);
-    border: 10px solid rgb(70, 70, 70);
-    height: 400px;
-    max-width: 650px;
-    margin-left: 345px;
 }
 
 .chat-button {
     margin-left: 10px;
-    margin-top: 3em;
+    margin-bottom: 0;
 }
+
+#game {
+    background-color: black;
+    /*background-image: url(cat_face.png);*/
+    background-repeat: no-repeat;
+    background-position: 300px 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.root {
+    position: relative;
+}
+
+/*.chat {
+    position: absolute;
+
+}*/
